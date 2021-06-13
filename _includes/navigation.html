@@ -1,0 +1,10 @@
+<nav class="site-navigation">
+  {% for item in site.data.navigation.items %}
+    <a
+        href="{{ item.link }}"
+        target="{{ item.target || '_self' }}"
+        class="link {% if page.url == item.link %} active {% endif %}">
+        {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>

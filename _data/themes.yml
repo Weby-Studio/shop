@@ -1,0 +1,7 @@
+THEMES:
+  LIGHT: &default 'light'
+  DARK: 'dark'
+
+DEFAULT_THEME: *default
+
+THEME_KEY: 'bwk_site_theme'
