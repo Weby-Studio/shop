@@ -34,4 +34,4 @@ items:
     target: _self
   - name: Admin
     link: /admin/
-    target: _blank
+    target: _self
