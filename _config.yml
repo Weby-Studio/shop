@@ -163,3 +163,5 @@ pwa:
     - '**/*.html'
   precache_glob_ignores: # Optional
     - 'sw-register.js'
+
+theme: jekyll-theme-time-machine
