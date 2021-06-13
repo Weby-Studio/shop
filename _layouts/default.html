@@ -117,25 +117,23 @@
   <div class="site-footer-content col">© 2021 Weby Shop</div>
 </footer>
 
-<!-- NETLIFY -->
-<script>
-    if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                });
-            }
-        });
-    }
-</script>
-
 <!-- GITHUB -->
 <script>
-  (() => {
-    const GITHUB = window.GITHUB = {{ site.github | jsonify }};
-  })();
+  window.GITHUB = {{ site.github | jsonify }};
 </script>
 <!-- END GITHUB -->
+
+<!-- NETLIFY -->
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
