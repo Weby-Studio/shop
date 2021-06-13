@@ -1,6 +1,6 @@
 ---
 title: Weby Shop
 ---
-# Bullwinkle's Organization page
+# Weby Shop
 
 <img src="/assets/images/bullwinkle_and_friends_px.png" width="100%" alt="Bullwinkle with friends">
