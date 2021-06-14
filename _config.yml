@@ -81,9 +81,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate-v2
-  - jekyll-datapage-generator
-  - jekyll-pwa-plugin
-  - jekyll-admin
+#  - jekyll-datapage-generator
+#  - jekyll-pwa-plugin
+#  - jekyll-admin
 
 livereload: true
 
