@@ -1,6 +1,6 @@
 ---
 title: Weby Shop
 ---
-# Weby Shop
+# {{ site.title }}
 
-## Shop description
+## {{ site.description }}

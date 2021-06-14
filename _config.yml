@@ -147,21 +147,21 @@ pagination:
 
 ############################################################
 
-
-pwa:
-  enabled: true # Optional
-  sw_src_filepath: 'service-worker.js' # Optional
-  sw_dest_filename: 'service-worker.js' # Optional
-  dest_js_directory: 'assets/js' # Required
-  precache_recent_posts_num: 10 # Optional
-  precache_glob_directory: '/' # Optional
-  precache_glob_patterns: # Optional
-    - 'index.html'
-    - '404.html'
-    - 'manifest.json'
-    - 'assets/{js,css,fonts,uploads}/**/*.{js,css,eot,svg,png,jpg,ttf,woff,mov}'
-    - '**/*.html'
-  precache_glob_ignores: # Optional
-    - 'sw-register.js'
+#
+#pwa:
+#  enabled: true # Optional
+#  sw_src_filepath: 'service-worker.js' # Optional
+#  sw_dest_filename: 'service-worker.js' # Optional
+#  dest_js_directory: 'assets/js' # Required
+#  precache_recent_posts_num: 10 # Optional
+#  precache_glob_directory: '/' # Optional
+#  precache_glob_patterns: # Optional
+#    - 'index.html'
+#    - '404.html'
+#    - 'manifest.json'
+#    - 'assets/{js,css,fonts,uploads}/**/*.{js,css,eot,svg,png,jpg,ttf,woff,mov}'
+#    - '**/*.html'
+#  precache_glob_ignores: # Optional
+#    - 'sw-register.js'
 
 theme: jekyll-theme-time-machine
