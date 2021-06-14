@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9faf1eb7-cf41-4908-92a3-53def216afe4/deploy-status)](https://app.netlify.com/sites/goofy-villani-8e277f/deploys)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Weby-Studio/shop/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.

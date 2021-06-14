@@ -6,7 +6,7 @@ backend:
   branch: gh-pages # Branch to update (optional; defaults to master)
   repo: weby-studio/shop
   api_root: https://api.github.com
-#  site_domain:
+  site_domain: shop.weby.studio
 #  base_url:
 #  auth_endpoint:
 #  cms_label_prefix:
