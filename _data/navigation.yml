@@ -1,9 +1,9 @@
 items:
-  - name: About
-    link: /pages/about/
-    target: _self
   - name: Home
     link: /
+    target: _self
+  - name: About
+    link: /pages/about/
     target: _self
   - name: Blog
     link: /pages/blog/
