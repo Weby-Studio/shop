@@ -6,7 +6,7 @@ items:
     link: /pages/about/
     target: _self
   - name: Blog
-    link: /blog/
+    link: /pages/blog/
     target: _self
   - name: Products
     link: /pages/products/
