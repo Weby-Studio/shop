@@ -15,5 +15,5 @@ items:
     link: /pages/system-info/
     target: _self
   - name: Admin
-    link: /pages/admin/
+    link: /admin/
     target: _self
